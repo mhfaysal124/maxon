@@ -1,0 +1,557 @@
+/** Common Style Start ***********************/
+/******************************************************************/
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    color: #6c6c6f;
+    font-size: 15px;
+    line-height: 27px;
+}
+section{
+    padding: 50px 0;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #112e41;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s all ease-in;
+}
+a:hover{
+    color: #ff7214;
+}
+.btn_default{
+    color: #fff;
+    background-color: #ff7214;
+    padding: 15px 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: .3s all ease-in;
+}
+.btn_default:hover{
+    color: #ff7214;
+    background-color: #fff;
+    border: 1px solid #ff7214;
+}
+/******************************************************************/
+/** Common Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** Header Style Start ***********************/
+/******************************************************************/
+.header{
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
+.c_navbar li a{
+    font-weight: 700;
+    font-size: 16px;
+    transition: .3s all ease-in;
+    color: #000;
+    padding-left: 30px;
+}
+.c_navbar li a:hover{
+    color: #ff7214 !important;
+}
+.c_dropdown_menu{
+    border: 0;
+    min-width: 12rem;
+}
+/******************************************************************/
+/** Header Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** Common Style Start ***********************/
+/******************************************************************/
+.banner{
+    background-color: #f7f7f7;
+}
+.common_heading span{
+    font-size: 16px;
+    color: #ff7214;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.common_heading h1{
+    padding: 15px 0 50px;    
+    font-size: 45px;
+}
+.fs_60{
+    font-size: 60px !important;
+}
+.about_right_area h4{
+    font-weight: 400;
+}
+.recent_right_area{
+    max-width: 545px;
+    margin-right: 100px;
+}
+.recent_btn{
+    margin: 30px 0 0;
+    font-size: 20px;
+}
+.recent_btn a{
+    margin-right: 5px;
+}
+.recent_center{
+    margin-right: 0px !important;
+    margin-left: 100px !important;
+}
+/******************************************************************/
+/** Common Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** About Style Start ***********************/
+/******************************************************************/
+.about_left_area{
+    position: relative;
+}
+.about_img_bg{
+    position: absolute;
+    z-index: -99;
+    left: 50%;
+    top: 30px;
+    max-width: 545px;
+    -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+}
+.about_img_1{
+    margin-top: 80px;
+}
+.about_img_2{
+    margin-bottom: 8px;
+}
+.about_right_area{
+    max-width: 545px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.about_right_area p{
+    padding: 30px 0;
+}
+.about_left_area h2{
+    margin-top: 40px;
+    font-size: 40px;
+}
+/******************************************************************/
+/** About Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** Common Style Start ***********************/
+/******************************************************************/
+.ad_icon{
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 28px;
+    background-color: #ff841454;
+}
+.ad_single_wrap{
+    padding: 40px 20px;
+    font-size: 17px;
+    border: 5px solid #68686829;
+    border-radius: 5px;
+    transition: .3s all ease-in;
+}
+.ad_single_wrap:hover{
+    border: 5px solid transparent;
+    box-shadow: 0px 0px 20px 16px #68686829;
+}
+.ad_single_wrap h4{
+    padding: 20px 0;
+    margin: 0;
+}
+
+/******************************************************************/
+/** Common Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** Common Style Start ***********************/
+/******************************************************************/
+.common_heading_2 span{
+    font-size: 16px;
+    color: #ff7214;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.common_heading_2 h1{
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+/******************************************************************/
+/** Common Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** funfact Style Start ***********************/
+/******************************************************************/
+.Funfacts{
+    background-color: #162b45;
+    color: #fff;
+}
+.funfact img{
+    max-width: 65px;
+    margin-bottom: 30px;
+}
+.funfact p{
+    align-items: center;
+    display: inline-flex;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.funfact p span{
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+/******************************************************************/
+/** funfact Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** Happy Style Start ***********************/
+/******************************************************************/
+.intro_video{
+    position: relative;
+}
+.inner_video{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+}
+.video_btn{
+    position: relative;
+    display: block;
+    background: #ff7214;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin: 0 auto 15px;
+    transition: .4s all ease-in
+}
+
+.video_btn:hover{
+    color: #000 !important;
+}
+.video_btn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-animation: beat infinite 1.2s;
+    animation: beat infinite 1.2s;
+    height: 60px;
+    width: 60px;
+    background-color: #ff7214;
+    border-radius: 50%;
+    z-index: -1;
+}
+.inner_video span{
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.intro_video::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 43, 69, 0.7);
+}
+
+.c_inner{
+    margin-left: 50px;
+}
+.happy_img{
+    border-radius: 50%;
+}
+.happy_text{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px 0;
+}
+.team_wrap{
+    padding: 15px 0;
+}
+.team_social ul li{ 
+    padding: 0 10px;
+    position: relative;
+}
+.social_12::before{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #6c6c6f5e;
+    border-radius: 50px;
+    top: 35%;
+    right: -5%;
+}
+.team_social ul li a{
+    color: #6c6c6f;
+    font-size: 16px;
+    transition: .4s all ease-in;
+}
+.team_social ul li a:hover{
+    color: #ff7214;
+}
+/******************************************************************/
+/** Happy Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** Latest news Style Start ***********************/
+/******************************************************************/
+.post_wrap{
+    padding: 0;
+    margin-top: 40px;
+    font-size: 17px;
+    border: 5px solid #68686829;
+    border-radius: 5px;
+    transition: .3s all ease-in;
+}
+.post_content{
+    padding: 30px;
+}
+.meta_tag{
+    margin-bottom: 10px;
+}
+.post_catagory{
+    position: relative;
+}
+.meta_tag a:first-child{
+    padding-left: 0;
+}
+.meta_tag a{
+    color: #888;
+    font-size: 12px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+}
+.meta_tag a:hover{
+    color: #ff7214;
+}
+.post_catagory::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 56px;
+    width: 2px;
+    height: 100%;
+    background-color: #88888880;
+}
+.post_content h5{
+    font-size: 21px;
+    margin-bottom: 20px;
+    transition: .4s all ease-in;
+    cursor: pointer;
+}
+.post_content h5:hover{
+    color: #ff7214;
+}
+.meta_tag a i{
+    color: #ff7214;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+/******************************************************************/
+/** Latest news Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** contact Style Start ***********************/
+/******************************************************************/
+.contact_link span, .contact_link a{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.contact_link img{
+    margin-right: 20px;
+}
+.contact_link a{
+    color: #6c6c6f;
+    transition: .4s al ease-in;
+}
+.contact_link a:hover{
+    color: #ff7214;
+}
+.input_text{
+    padding: 15px 20px;
+}
+.input_text:focus{
+    box-shadow: 0 0 0 0.25rem rgb(255 114 20 / 19%);
+}
+
+/******************************************************************/
+/** contact Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** partners Style Start ***********************/
+/******************************************************************/
+.partners_logo img{
+    max-width: 186px;
+    margin-right: 119px;
+}
+/******************************************************************/
+/** partners Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** footer Style Start ***********************/
+/******************************************************************/
+.footer{
+    background-color: rgb(27 31 50);
+}
+.footer h3, .footer_logo{
+    color: #ffffffd6;
+    margin-bottom: 30px;
+}
+.footer_service a, .footer span a{
+    color: #6c6c6f;
+}
+.footer_service a:hover, .footer span a:hover{
+    color: #ff7214;
+}
+.footer_gallery img{
+    padding: 4px;
+    width: 32%;
+}
+/******************************************************************/
+/** footer Style End ***********************/
+
+
+
+
+
+
+
+
+
+
+/** Common Style Start ***********************/
+/******************************************************************/
+.footer_bottom{
+    background-color: #303652;
+    padding: 10px 0;
+    color: #fff;
+}
+.footer_bottom a{
+    color: #ff7214;
+}
+/******************************************************************/
+/** Common Style End ***********************/
